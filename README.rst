@@ -14,7 +14,7 @@ The recommended way to install Configuration is through `Composer <http://getcom
 1. Add ``harchibald/configuration`` as a dependency in your project's ``composer.json`` file:
 
 
-```yaml
+```json
 {
     "require": {
         "harchibald/configuration": "*"
