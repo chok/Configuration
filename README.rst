@@ -15,11 +15,12 @@ The recommended way to install Configuration is through `Composer <http://getcom
 
 
 ```yaml
-        {
-            "require": {
-                "harchibald/configuration": "*"
-            }
-        }
+
+{
+    "require": {
+        "harchibald/configuration": "*"
+    }
+}
 ```
 
 Consider tightening your dependencies to a known version when deploying mission critical applications (e.g. ``2.7.*``).
