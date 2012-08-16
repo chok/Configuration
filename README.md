@@ -27,9 +27,7 @@ Consider tightening your dependencies to a known version when deploying mission 
 2. Download and install Composer:
 
 ```bash
-
 $ curl -s http://getcomposer.org/installer | php
-
 ```
 
 3. Install your dependencies:
