@@ -9,7 +9,7 @@ Installation
 via Composer
 ------------
 
-The recommended way to install Guzzle is through [Composer](http://getcomposer.org).
+The recommended way to install Configuration is through `Composer <http://getcomposer.org>`_.
 
 1. Add ``harchibald/configuration`` as a dependency in your project's ``composer.json`` file:
 
