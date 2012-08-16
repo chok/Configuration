@@ -41,6 +41,7 @@ $ php composer.phar install
 Composer also prepares an autoload file that's capable of autoloading all of the classes in any of the libraries that it downloads. To use it, just add the following line to your code's bootstrap process:
 
 ```php
+<?php
 require 'vendor/autoload.php';
 ```
 
@@ -48,7 +49,8 @@ You can find out more on how to install Composer, configure autoloading, and oth
 
 Use
 ===
-
+```php
+<?php
 $parameters = array(
   'foo' => array(
     'bar' => array(
@@ -82,10 +84,12 @@ $configuration->get('baz');
 $configuration->resetPrefix();
 
 $configuration->get('bar/foo');
+```
 
 Methods
 -------
-
+```
+<?php
   public function __construct(array $parameters = array())
   
   public function box($box)  
@@ -105,3 +109,4 @@ Methods
   public function clear($path)
   public function all()
   public function remove($path)
+```
