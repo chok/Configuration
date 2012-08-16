@@ -1,5 +1,5 @@
 {
-    "name": "Harchibald/Configuration",
+    "name": "harchibald/configuration",
     "require": {
         "php": ">=5.3.0"
     }
