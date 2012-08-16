@@ -51,7 +51,7 @@ class Configuration
     return array_merge($this->prefix, $this->boxes);
   }
   
-  public function checkAndThrowForBoxMode()
+  protected function checkAndThrowForBoxMode()
   {
     if ($this->inBoxMode())
     {
@@ -72,7 +72,7 @@ class Configuration
   {
     $this->checkAndThrowForBoxMode();
     
-    $this->setPrefix(null);
+    $this->prefix = array();
     
     return $this;
   }
@@ -230,7 +230,7 @@ class Configuration
   public function get($path, $default = null)
   {
     $path = $this->getCompleteExplodedPath($path);
-
+    
     return $this->recursiveGet($path, $this->parameters, $default);
   }
   
