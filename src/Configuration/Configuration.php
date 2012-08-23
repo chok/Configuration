@@ -1,6 +1,6 @@
 <?php
 
-namespace Harchibald;
+namespace Configuration;
 
 class Configuration 
 {
