@@ -1,8 +1,8 @@
 {
     "name": "harchibald/configuration",
     "type": "library",
-    "description": "A library good for WC(Web Clipping)",
-    "keywords": ["WC","Web Clipping"],
+    "description": "A Generic configuration Class",
+    "keywords": ["Configuration"],
     "homepage": "http://github.com/chok/Configuration",
     "license": "MIT",
     "authors": [
